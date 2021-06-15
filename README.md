@@ -13,7 +13,8 @@ The script requires an installation of Python to run and five different packages
 
 The files for quantile normalisation have to be giving as command line arguments, separated by whitespace. The script can be executed from a Linux command terminal. Use the following command to run the script:
 
-```python QuantileNormalisation.py input1 input2 input3
+```
+python QuantileNormalisation.py input1 input2 input3
 ```
 
 The number of input files is variable from two up to infinite files in principle. It was tested for up to eight input files. Using more files than 10 should be possible but will take very long to compute.
