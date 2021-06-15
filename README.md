@@ -18,6 +18,7 @@ python QuantileNormalisation.py input1 input2 input3
 ```
 
 The number of input files is variable from two up to infinite files in principle. It was tested for up to eight input files. Using more files than 10 should be possible but will take very long to compute.
+
 Output files will be generated automatically and saved as input1_normalised.tabular, input2_normalised.tabular, ... and so on.
 
 There are to optional graphical outputs: density graphs or boxplots of the raw vs. quantile normalised data. By default the script produces box-plots, but the flag for density_graph in the script can be changed to "True" before running the script to produce density graphs as well.
